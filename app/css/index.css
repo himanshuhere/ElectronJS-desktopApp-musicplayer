@@ -1,0 +1,119 @@
+html,
+body {
+    background: white;
+    height: 630px;
+    overflow: hidden;
+    width: 370px;
+    -webkit-app-region: drag;
+    -webkit-user-select: none;
+}
+
+#main {
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-bottom: 1px solid #73E2F7;
+    height: 630px;
+}
+
+.speaker {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.speaker img {
+    height: 260px;
+    width: 260px;
+}
+
+#main h1 {
+    color: #fff;
+    padding-right: 6px;
+    padding-top: 5px;
+    text-align: center;
+    text-indent: -10000px;
+}
+
+#main h1 img {
+    height: 140px;
+    width: 160px;
+}
+
+.buttons {
+   margin-top: 2%;
+    margin-left: 21%;
+    margin-right: 10%;
+    display: inherit;
+    
+    
+    
+
+}
+
+.buttons > div {
+   
+}
+
+.button-sound {
+    background: #b92b27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    margin-top: 10px;
+    position: relative;
+    width: 200px;
+    box-shadow: 0 3px 0 grey;
+    -webkit-app-region: no-drag;
+}
+
+.button-sound:hover {
+    box-shadow: 0 2px 0 #044D7F;
+    top: 2px;
+}
+
+.button-sound:hover > span {
+    top: -42px;
+}
+
+.button-sound:active {
+    box-shadow: 0 0 0 #044D7F;
+    top: 5px;
+}
+
+.button-sound:active > span {
+    top: -45px;
+}
+
+
+
+.settings,
+.close {
+    cursor: pointer;
+    display: inline-block;
+    height: 32px;
+    position: absolute;
+    text-indent: -10000px;
+    top: 6px;
+    width: 32px;
+    z-index: 1;
+
+    -webkit-app-region: no-drag;
+}
+
+.settings {
+    background: transparent url('../img/info.png') no-repeat 4px 4px;
+    background-size: 24px 24px;
+    right: 38px;
+}
+
+.close {
+    background: transparent url('../img/close.png') no-repeat 4px 4px;
+    background-size: 24px 24px;
+    right: 6px;
+}
+
