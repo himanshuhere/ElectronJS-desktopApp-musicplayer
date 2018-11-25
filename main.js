@@ -33,7 +33,7 @@ ipc.on('close-main-window', function () {
 
 
 
-// //  response to open setting window 
+// //  response to open setting window
 
 
 
