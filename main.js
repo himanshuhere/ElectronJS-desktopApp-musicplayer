@@ -31,7 +31,7 @@ ipc.on('close-main-window', function () {
 });
 
 
-// 	//	global global-shortcut stuff
+
 
 // //  response to open setting window 
 
