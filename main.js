@@ -10,9 +10,7 @@ var mainWindow = null;
 var settingsWindow = null;
 
 app.on('ready', function() {
-   
-
-    mainWindow = new BrowserWindow({
+   mainWindow = new BrowserWindow({
         frame: false,
         height: 630,
         resizable: false,
