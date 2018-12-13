@@ -16,7 +16,6 @@ app.on('ready', function() {
         width: 370
     });
    
-   
 
     mainWindow.loadUrl('file://' + __dirname + '/app/index.html');
    
