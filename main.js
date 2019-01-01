@@ -6,6 +6,7 @@ var BrowserWindow = require('browser-window');
 var ipc = require('ipc');
 
 var mainWindow = null;
+
 var settingsWindow = null;
 
 app.on('ready', function() {
