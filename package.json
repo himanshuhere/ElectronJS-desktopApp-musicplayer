@@ -8,8 +8,7 @@
     "package": "electron-packager ./ SoundGenerator-ELECTRON2018 --all --out ~/Desktop/SoundGenerator-ELECTRON2018 --version 3.0.9 --overwrite --icon=./app/img/app-icon.icns"
   },
   "devDependencies": {
-    "electron-packager": "^5.2.0",
-    "electron-prebuilt": "^0.30.3"
+    "electron-packager": "^5.2.0"
   },
   "dependencies": {
     "nconf": "^0.7.2"
